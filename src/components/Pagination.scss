@@ -1,0 +1,31 @@
+.pagination {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.5em 0;
+  background-color: #272727;
+  position: fixed;
+  bottom: 0;
+
+  span {
+    color: #fff;
+  }
+
+  &__button-left {
+    margin-right: 1.5em;
+    transform: rotate(180deg);
+  }
+
+  &__button-right {
+    margin-left: 1.5em;
+  }
+
+  &__button-left,
+  &__button-right {
+    color: #fff;
+    cursor: pointer;
+  }
+}
